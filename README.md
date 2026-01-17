@@ -13,4 +13,9 @@ A WordPress.com website built for a local Aikido club. This repository documents
 - WordPress.com
 - Custom CSS
 
+### Development Environment
+
+Although I normally work on **Linux**, this project is currently developed on **Windows 11** using **Visual Studio Code**.  
+This reflects my ability to work comfortably across different operating systems.
+
 
