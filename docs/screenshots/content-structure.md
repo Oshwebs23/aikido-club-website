@@ -9,8 +9,6 @@ Brief explanation of the main idea or experience.
 - Bullet point audience descriptions
 - Keep it simple and welcoming
 
-## How It Works
-Step-by-step or structured explanation.
 
 ## Practical Details
 - Location
