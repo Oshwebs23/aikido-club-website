@@ -27,6 +27,6 @@ A clear, accessible Aikido club website that introduces the dojo, its instructor
 ## Completed Milestones
 - Initial project setup
 - Homepage created
-- Instructor pages added
+- Instructor pages added and content updated
 - Repo structure organised
 - New club branding added

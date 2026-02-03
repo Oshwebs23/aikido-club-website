@@ -25,3 +25,4 @@ The primary call‑to‑action button is placed directly beneath the introductor
 Updated the global Pages template in the WordPress Site Editor to center all dynamic page titles.  
 This improves visual hierarchy, creates a more balanced layout, and aligns with the overall design direction of the site.  
 The change applies to all standard pages using the default Pages template.
+
