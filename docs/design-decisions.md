@@ -26,3 +26,14 @@ Updated the global Pages template in the WordPress Site Editor to center all dyn
 This improves visual hierarchy, creates a more balanced layout, and aligns with the overall design direction of the site.  
 The change applies to all standard pages using the default Pages template.
 
+---
+
+### About Us page
+The original About Us section used centred text. To improve structure and visual interest, I updated it to a two‑column layout with text on the left and an image on the right.
+Reasoning:
+- Left‑aligned text improves readability and scanning.
+- The split layout creates clearer hierarchy and balance.
+- The image supports the written content and adds visual context.
+- The design adapts cleanly to mobile by stacking vertically.
+
+
