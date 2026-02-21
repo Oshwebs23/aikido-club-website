@@ -4,6 +4,20 @@ This document outlines the key design choices made during the development of the
 
 ---
 
+## Technical Decisions
+- Explanation of why you chose WordPress block editor
+- Accessibility choices
+- Performance considerations
+- Plugin strategy
+- Hosting or theme constraints
+
+## SEO Decisions
+- How titles and meta descriptions are structured
+- Local SEO strategy (e.g., “Swansea Aikido”)
+- Heading hierarchy choices
+- URL structure
+- Image alt‑text approach
+
 ## Logo Placement (Left-Aligned in Header)
 
 The club logo is positioned on the left side of the header to create a strong visual anchor and support natural reading flow. Placing the logo at the left establishes brand identity immediately and improves navigation clarity. This placement also aligns with common martial arts club websites, reinforcing familiarity and trust.
@@ -36,4 +50,9 @@ Reasoning:
 - The image supports the written content and adds visual context.
 - The design adapts cleanly to mobile by stacking vertically.
 
+
+### FAQ'S Design Decisions 
+- Keep answers concise and beginner-friendly.
+- Anticipate real anxieties: fitness level, age, cost, what to wear, safety.
+- Avoid overloading with technical detail — link to deeper pages if needed.
 

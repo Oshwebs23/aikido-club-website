@@ -4,7 +4,6 @@
 A clear, accessible Aikido club website that introduces the dojo, its instructors, and its practice, with room for future growth.
 
 ## Current Phase
-- Finalising instructor bios
 - Linking all pages in the navigation menu
 - Updating layout and styling
 - Ensuring responsive design
@@ -12,9 +11,7 @@ A clear, accessible Aikido club website that introduces the dojo, its instructor
 ## Next Steps
 - Add content on each page
 - Add High quality images
-- Add class timetable page
 - Add contact form
-- Add club history page
 - Improve accessibility (ARIA labels, alt text)
 - Add basic SEO (meta descriptions, titles)
 
@@ -30,3 +27,5 @@ A clear, accessible Aikido club website that introduces the dojo, its instructor
 - Instructor pages added and content updated
 - Repo structure organised
 - New club branding added
+- FAQ's page completed
+- Photo accredition added on all pages.
