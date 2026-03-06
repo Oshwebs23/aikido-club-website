@@ -7,7 +7,7 @@ A WordPress.com website built for a local Aikido club. This repository documents
 ## 🎉 Website Launch
 The **Swansea Bay Aikido Club** website is now officially live.
 
-🔗 **Live site:** https://swanseabayaikido.co.uk
+🔗 **Live site:** https://swanseabayaikidoclub.co.uk
 
 This marks the completion of the initial build phase, including content structure, page layout, and overall site setup on WordPress.com.
 
