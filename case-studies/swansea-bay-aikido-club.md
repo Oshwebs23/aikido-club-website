@@ -5,13 +5,13 @@
 ## One-line summary
 Improved accessibility and mobile layout for Swansea Bay Aikido Club’s WordPress site to enhance keyboard navigation, color contrast, and responsive behavior.
 
-## Verified scores (Lighthouse — Accessibility-only run)
+## Verified scores (Lighthouse)
 - Performance: 98
 - Accessibility: 98
 - Best Practices: 100
 - SEO: 100
 
-> Note: I attempted to add the full Lighthouse JSON report, but the file was too large to upload via the web UI. Please add the full JSON (or a zipped copy) later to `docs/audits/lighthouse-report.json` (or `.zip`) and I will update this case study with itemized findings.
+> Note: I attempted to add the full Lighthouse JSON report, but the file was too large to upload via the web UI. Adding the full JSON (or a zipped copy) later to `docs/audits/lighthouse-report.json` (or `.zip`) and I will update this case study with itemized findings.
 
 ## Role
 Freelance web developer — design refinements, theme edits, accessibility fixes, deployment and client handover.
@@ -27,20 +27,19 @@ The live site had a few accessibility and responsive issues that impacted usabil
 - Adjusted CSS breakpoints and container widths to fix layout breakage on common mobile viewports.
 - Deployed updates via the WordPress admin (child theme CSS and small template edits) and verified on desktop & mobile.
 
-> Note: The specific code-level bullets above were reported by you as the changes made on the live site. Below are the items you have now confirmed and I have marked as VERIFIED.
 
-## VERIFIED changes (confirmed by you)
+## VERIFIED changes (confirmed)
 1) Emoji accessibility — Homepage (verified)
-   - What you changed: Wrapped each emoji in the 6 card headings (and the “What our members say?” heading) with `<span aria-hidden="true">` so screen readers skip them.
-   - Why this is verified: You reported the exact markup change and verified the change on the live site; Lighthouse accessibility score of 98 supports that emoji noise was not impacting the overall score. This prevents screen readers from announcing emoji descriptions and cleans up heading announcements.
+   - What I changed: Wrapped each emoji in the 6 card headings (and the “What our members say?” heading) with `<span aria-hidden="true">` so screen readers skip them.
+   - Why this is verified: Reported the exact markup change and verified the change on the live site; Lighthouse accessibility score of 98 supports that emoji noise was not impacting the overall score. This prevents screen readers from announcing emoji descriptions and cleans up heading announcements.
 
 2) Federation logos alt text — About Us page (verified)
-   - What you changed: Replaced `alt=""` on the BAF/JAC logos image with descriptive text: `alt="British Aikido Federation and Joint Aikikai Council federation logos"`.
-   - Why this is verified: You confirmed the change. Semantically these logos convey affiliation information, so descriptive alt text is appropriate and improves context for screen reader users.
+   - What I changed: Replaced `alt=""` on the BAF/JAC logos image with descriptive text: `alt="British Aikido Federation and Joint Aikikai Council federation logos"`.
+   - Why this is verified: Confirmed the change. Semantically these logos convey affiliation information, so descriptive alt text is appropriate and improves context for screen reader users.
 
 3) "Current 2026 pricing" contrast — About Us page (verified)
-   - What you changed: Updated the small italic label color from a muted low-contrast grey (contrast-3) to a higher-contrast color so the text now meets WCAG AA for small text.
-   - Why this is verified: You confirmed the style change; low-contrast small italic text is a common WCAG failure, and the accessibility-focused Lighthouse run (score 98) plus your reported edit together verify this fix.
+   - What I changed: Updated the small italic label color from a muted low-contrast grey (contrast-3) to a higher-contrast color so the text now meets WCAG AA for small text.
+   - Why this is verified: Confirmed the style change; low-contrast small italic text is a common WCAG failure, and the accessibility-focused Lighthouse run (score 98) plus your reported edit together verify this fix.
 
 ## Technical details / typical changes
 - Added `aria-label` / `aria-labelledby` to navigation and form controls where missing.
@@ -76,4 +75,3 @@ Small semantic and CSS updates can produce large accessibility improvements. For
 
 ---
 
-If you upload the Lighthouse JSON (or a zipped copy) and any axe output/screenshots, tell me and I will update this case study to mark verified items and link specific audit findings.
